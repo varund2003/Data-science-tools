@@ -1,6 +1,6 @@
 # Data-science-tools
 
-# Data Science Notebook
+# Data Science Tools and Ecosystem
 
 Welcome to my Data Science Notebook! This repository contains exercises and explorations in the field of data science, covering various concepts and tools.
 
@@ -45,7 +45,19 @@ Explore basic arithmetic expressions to understand mathematical operations.
 
 ### Multiply and Add Numbers
 ```python
-# Multiply and add numbers
-result = 5 * 3 + 2
-result
+# Multiplication and Addition Example with User Input
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+result = num1 * num2 + 2
+print(f"The result of {num1} multiplied by {num2} and added by 2 is: {result}")
+
+
+# Convert User Input Minutes to Hours
+minutes = float(input("Enter the number of minutes: "))
+
+hours = minutes / 60
+print(f"{minutes} minutes is equal to {hours} hours.")
+
+
 
